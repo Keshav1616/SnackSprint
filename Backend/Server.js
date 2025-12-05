@@ -7,7 +7,7 @@ const port = 8080
 app.use(express.json())
 app.use(cors())
 
-const url = 'mongodb://localhost:27017/snacksprint'
+const url = 'mongodb+srv://keshavshagun2222:keshavmoney1916@cluster0.66pic1y.mongodb.net/snacksprint'
 
 mongoose.connect(url)
   .then(() => console.log('Database connected'))
